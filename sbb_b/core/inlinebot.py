@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**▾∮ مرحبا عزيزي {mention}**\n**▾اليكَ قائمة بازرار مضمنة لاوامر ↫**⍣ⵧⵧⵧⵧⵧᴊᴍᴛʜᴏɴⵧⵧⵧⵧⵧ⍣**\n[𝙅𝙈𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/JMTHON)\n\n"
+    text = f"**▾∮ مرحبا عزيزي {mention}**\n**▾اليكَ قائمة بازرار مضمنة لاوامر ↫**⍣ⵧⵧⵧⵧⵧᴊᴍᴛʜᴏɴⵧⵧⵧⵧⵧ⍣**\n[𝑹𝑬𝑷𝑻𝑯𝑶𝑵🜑 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/Repthon)\n\n"
     buttons = [
         (Button.inline("معلومات الملفات 🗂", data="check"),),
         (
@@ -229,7 +229,7 @@ async def inline_handler(event):
             buttons = [
                 (
                     Button.inline("Stats", data="stats"),
-                    Button.url("DEV", "https://t.me/JMTHON"),
+                    Button.url("DEV", "https://t.me/Repthon"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -422,7 +422,7 @@ async def inline_handler(event):
             _result = main_menu()
             result = builder.article(
                 title="sbb_b Help™",
-                description="**▾∮ قائمة التعليمات الخاصة ب جمثون **",
+                description="**▾∮ قائمة التعليمات الخاصة ب ريبثون **",
                 text=_result[0],
                 buttons=_result[1],
                 link_preview=False,
@@ -558,10 +558,10 @@ async def inline_handler(event):
     else:
         buttons = [
             (
-                Button.url("قناة السورس", "t.me/JMTHON"),
+                Button.url("قناة السورس", "t.me/Repthon"),
                 Button.url(
                     "المطور",
-                    "t.me/RR7PP",
+                    "t.me/ZQ_LO",
                 ),
             )
         ]
@@ -575,7 +575,7 @@ async def inline_handler(event):
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="[𝙅𝙈𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/JMTHON)",
+            title="[𝑹𝑬𝑷𝑻𝑯𝑶𝑵🜑 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/Repthon)",
             description="لتنصيبه لك",
             url="t.me/JMTHON",
             thumb=photo,
